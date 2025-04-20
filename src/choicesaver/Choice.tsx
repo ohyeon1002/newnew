@@ -1,3 +1,5 @@
+import Choose from "./Choose";
+
 export default function Choice() {
   return (
     <div
@@ -5,7 +7,7 @@ export default function Choice() {
                 flex flex-row
                 border rounded-md border-gray-300"
     >
-      <span>hi</span>
+      <Choose />
     </div>
   );
 }
